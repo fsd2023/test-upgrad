@@ -4,7 +4,7 @@ body {
                   }
                   
                   header {
-                    background-color: #333;
+                    background-color: #5fa81f;
                     color: #fff;
                     display: flex;
                     justify-content: space-between;
@@ -46,15 +46,22 @@ body {
                     padding: 10px;
                     margin-bottom: 20px;
                     border-radius: 5px;
-                    border: 1px solid #ccc;
+                    border: 3px #0f0101;
+                    border-style: dotted;
                   }
                   
                   form button[type="submit"] {
-                    background-color: #333;
+                    background-color: #6141ac;
                     color: #fff;
                     padding: 10px 20px;
                     border: none;
                     border-radius: 5px;
                     cursor: pointer;
                   }
+                
+
+                img:hover
+                {
+                  border: 5px solid tomato;
+                }
                   
